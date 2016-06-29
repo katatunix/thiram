@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D583F1C01D22DA5800C18E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583F1BF1D22DA5800C18E5C /* AppDelegate.swift */; };
+		D583F1C21D22DA5800C18E5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583F1C11D22DA5800C18E5C /* ViewController.swift */; };
+		D583F1C41D22DA5800C18E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D583F1C31D22DA5800C18E5C /* Assets.xcassets */; };
+		D583F1C71D22DA5800C18E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D583F1C51D22DA5800C18E5C /* Main.storyboard */; };
+		D583F1D21D22DA5800C18E5C /* thiramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583F1D11D22DA5800C18E5C /* thiramTests.swift */; };
+		D583F1DD1D22DA5800C18E5C /* thiramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583F1DC1D22DA5800C18E5C /* thiramUITests.swift */; };
+		D583F1EC1D22DAF500C18E5C /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583F1EA1D22DAF500C18E5C /* Folder.swift */; };
+		D583F1ED1D22DAF500C18E5C /* MainWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583F1EB1D22DAF500C18E5C /* MainWin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D583F1CE1D22DA5800C18E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D583F1B41D22DA5800C18E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D583F1BB1D22DA5800C18E5C;
+			remoteInfo = thiram;
+		};
+		D583F1D91D22DA5800C18E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D583F1B41D22DA5800C18E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D583F1BB1D22DA5800C18E5C;
+			remoteInfo = thiram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D583F1BC1D22DA5800C18E5C /* thiram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thiram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583F1BF1D22DA5800C18E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D583F1C11D22DA5800C18E5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D583F1C31D22DA5800C18E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D583F1C61D22DA5800C18E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D583F1C81D22DA5800C18E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D583F1CD1D22DA5800C18E5C /* thiramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thiramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583F1D11D22DA5800C18E5C /* thiramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thiramTests.swift; sourceTree = "<group>"; };
+		D583F1D31D22DA5800C18E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D583F1D81D22DA5800C18E5C /* thiramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thiramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583F1DC1D22DA5800C18E5C /* thiramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thiramUITests.swift; sourceTree = "<group>"; };
+		D583F1DE1D22DA5800C18E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D583F1EA1D22DAF500C18E5C /* Folder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		D583F1EB1D22DAF500C18E5C /* MainWin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWin.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D583F1B91D22DA5800C18E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583F1CA1D22DA5800C18E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583F1D51D22DA5800C18E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D583F1B31D22DA5800C18E5C = {
+			isa = PBXGroup;
+			children = (
+				D583F1BE1D22DA5800C18E5C /* thiram */,
+				D583F1D01D22DA5800C18E5C /* thiramTests */,
+				D583F1DB1D22DA5800C18E5C /* thiramUITests */,
+				D583F1BD1D22DA5800C18E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D583F1BD1D22DA5800C18E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D583F1BC1D22DA5800C18E5C /* thiram.app */,
+				D583F1CD1D22DA5800C18E5C /* thiramTests.xctest */,
+				D583F1D81D22DA5800C18E5C /* thiramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D583F1BE1D22DA5800C18E5C /* thiram */ = {
+			isa = PBXGroup;
+			children = (
+				D583F1BF1D22DA5800C18E5C /* AppDelegate.swift */,
+				D583F1C11D22DA5800C18E5C /* ViewController.swift */,
+				D583F1EA1D22DAF500C18E5C /* Folder.swift */,
+				D583F1EB1D22DAF500C18E5C /* MainWin.swift */,
+				D583F1C31D22DA5800C18E5C /* Assets.xcassets */,
+				D583F1C51D22DA5800C18E5C /* Main.storyboard */,
+				D583F1C81D22DA5800C18E5C /* Info.plist */,
+			);
+			path = thiram;
+			sourceTree = "<group>";
+		};
+		D583F1D01D22DA5800C18E5C /* thiramTests */ = {
+			isa = PBXGroup;
+			children = (
+				D583F1D11D22DA5800C18E5C /* thiramTests.swift */,
+				D583F1D31D22DA5800C18E5C /* Info.plist */,
+			);
+			path = thiramTests;
+			sourceTree = "<group>";
+		};
+		D583F1DB1D22DA5800C18E5C /* thiramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D583F1DC1D22DA5800C18E5C /* thiramUITests.swift */,
+				D583F1DE1D22DA5800C18E5C /* Info.plist */,
+			);
+			path = thiramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D583F1BB1D22DA5800C18E5C /* thiram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583F1E11D22DA5800C18E5C /* Build configuration list for PBXNativeTarget "thiram" */;
+			buildPhases = (
+				D583F1B81D22DA5800C18E5C /* Sources */,
+				D583F1B91D22DA5800C18E5C /* Frameworks */,
+				D583F1BA1D22DA5800C18E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thiram;
+			productName = thiram;
+			productReference = D583F1BC1D22DA5800C18E5C /* thiram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D583F1CC1D22DA5800C18E5C /* thiramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583F1E41D22DA5800C18E5C /* Build configuration list for PBXNativeTarget "thiramTests" */;
+			buildPhases = (
+				D583F1C91D22DA5800C18E5C /* Sources */,
+				D583F1CA1D22DA5800C18E5C /* Frameworks */,
+				D583F1CB1D22DA5800C18E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D583F1CF1D22DA5800C18E5C /* PBXTargetDependency */,
+			);
+			name = thiramTests;
+			productName = thiramTests;
+			productReference = D583F1CD1D22DA5800C18E5C /* thiramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D583F1D71D22DA5800C18E5C /* thiramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583F1E71D22DA5800C18E5C /* Build configuration list for PBXNativeTarget "thiramUITests" */;
+			buildPhases = (
+				D583F1D41D22DA5800C18E5C /* Sources */,
+				D583F1D51D22DA5800C18E5C /* Frameworks */,
+				D583F1D61D22DA5800C18E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D583F1DA1D22DA5800C18E5C /* PBXTargetDependency */,
+			);
+			name = thiramUITests;
+			productName = thiramUITests;
+			productReference = D583F1D81D22DA5800C18E5C /* thiramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D583F1B41D22DA5800C18E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nghia Bui Van";
+				TargetAttributes = {
+					D583F1BB1D22DA5800C18E5C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JX7B3AF5P7;
+					};
+					D583F1CC1D22DA5800C18E5C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D583F1BB1D22DA5800C18E5C;
+					};
+					D583F1D71D22DA5800C18E5C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D583F1BB1D22DA5800C18E5C;
+					};
+				};
+			};
+			buildConfigurationList = D583F1B71D22DA5800C18E5C /* Build configuration list for PBXProject "thiram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D583F1B31D22DA5800C18E5C;
+			productRefGroup = D583F1BD1D22DA5800C18E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D583F1BB1D22DA5800C18E5C /* thiram */,
+				D583F1CC1D22DA5800C18E5C /* thiramTests */,
+				D583F1D71D22DA5800C18E5C /* thiramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D583F1BA1D22DA5800C18E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583F1C41D22DA5800C18E5C /* Assets.xcassets in Resources */,
+				D583F1C71D22DA5800C18E5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583F1CB1D22DA5800C18E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583F1D61D22DA5800C18E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D583F1B81D22DA5800C18E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583F1C21D22DA5800C18E5C /* ViewController.swift in Sources */,
+				D583F1C01D22DA5800C18E5C /* AppDelegate.swift in Sources */,
+				D583F1EC1D22DAF500C18E5C /* Folder.swift in Sources */,
+				D583F1ED1D22DAF500C18E5C /* MainWin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583F1C91D22DA5800C18E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583F1D21D22DA5800C18E5C /* thiramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583F1D41D22DA5800C18E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583F1DD1D22DA5800C18E5C /* thiramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D583F1CF1D22DA5800C18E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D583F1BB1D22DA5800C18E5C /* thiram */;
+			targetProxy = D583F1CE1D22DA5800C18E5C /* PBXContainerItemProxy */;
+		};
+		D583F1DA1D22DA5800C18E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D583F1BB1D22DA5800C18E5C /* thiram */;
+			targetProxy = D583F1D91D22DA5800C18E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D583F1C51D22DA5800C18E5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D583F1C61D22DA5800C18E5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D583F1DF1D22DA5800C18E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D583F1E01D22DA5800C18E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D583F1E21D22DA5800C18E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = thiram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghiabui.thiram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D583F1E31D22DA5800C18E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = thiram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghiabui.thiram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D583F1E51D22DA5800C18E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = thiramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghiabui.thiramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thiram.app/Contents/MacOS/thiram";
+			};
+			name = Debug;
+		};
+		D583F1E61D22DA5800C18E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = thiramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghiabui.thiramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thiram.app/Contents/MacOS/thiram";
+			};
+			name = Release;
+		};
+		D583F1E81D22DA5800C18E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = thiramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghiabui.thiramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = thiram;
+			};
+			name = Debug;
+		};
+		D583F1E91D22DA5800C18E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = thiramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghiabui.thiramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = thiram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D583F1B71D22DA5800C18E5C /* Build configuration list for PBXProject "thiram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583F1DF1D22DA5800C18E5C /* Debug */,
+				D583F1E01D22DA5800C18E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D583F1E11D22DA5800C18E5C /* Build configuration list for PBXNativeTarget "thiram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583F1E21D22DA5800C18E5C /* Debug */,
+				D583F1E31D22DA5800C18E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D583F1E41D22DA5800C18E5C /* Build configuration list for PBXNativeTarget "thiramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583F1E51D22DA5800C18E5C /* Debug */,
+				D583F1E61D22DA5800C18E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D583F1E71D22DA5800C18E5C /* Build configuration list for PBXNativeTarget "thiramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583F1E81D22DA5800C18E5C /* Debug */,
+				D583F1E91D22DA5800C18E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D583F1B41D22DA5800C18E5C /* Project object */;
+}

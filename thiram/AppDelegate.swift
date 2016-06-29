@@ -16,11 +16,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	}
 	
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		// Insert code here to initialize your application
+		// Insert code here to initialize your app
 	}
 	
 	func applicationWillTerminate(aNotification: NSNotification) {
-		// Insert code here to tear down your application
+		// Insert code here to tear down your app
 	}
 	
 	func application(sender: NSApplication, openFile filename: String) -> Bool {

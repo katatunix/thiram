@@ -27,6 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		if let vc = ViewController.instance {
 			vc.openFile(filename)
 		}
+		sender.activateIgnoringOtherApps(true)
 		return true
 	}
 	
